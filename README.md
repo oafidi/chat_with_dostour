@@ -89,8 +89,4 @@ moroccan-constitution-chatbot/
 - **PyPDF**: PDF reading
 - **python-dotenv**: environment variable management
 
----
 
-## 🔹 License
-
-This project is licensed under the MIT License.
