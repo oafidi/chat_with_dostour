@@ -19,7 +19,6 @@ The chatbot uses **LangChain**, **OpenAI**, and **FAISS** for efficient document
 
 - Python 3.10+  
 - OpenAI API key (stored in a `.env` file)  
-- Chrome and ChromeDriver installed (if using Selenium for future extensions)  
 
 ---
 
@@ -27,8 +26,8 @@ The chatbot uses **LangChain**, **OpenAI**, and **FAISS** for efficient document
 
 1. **Clone the repository:**
 ```bash
-git clone https://github.com/your-username/moroccan-constitution-chatbot.git
-cd moroccan-constitution-chatbot
+git clone https://github.com/oafidi/chat_with_dostour.git
+cd chat_with_dostour
 ```
 
 2. **Install the dependencies:**
@@ -52,7 +51,7 @@ documents/constitution_marocaine_2011-ar.pdf
 
 1. **Run the chatbot from the terminal:**
 ```bash
-python intro.py
+python3 rag_system.py
 ```
 
 2. **Type your questions in the terminal**
@@ -75,7 +74,7 @@ Bot: Freedom of expression is protected ...
 moroccan-constitution-chatbot/
 ├── documents/
 │   └── constitution_marocaine_2011-ar.pdf
-├── intro.py
+├── rag_system.py
 ├── requirements.txt
 └── README.md
 ```
